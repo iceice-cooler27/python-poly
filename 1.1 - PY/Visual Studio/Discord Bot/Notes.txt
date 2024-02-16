@@ -1,0 +1,42 @@
+Discord.py - widely-used library that provides a high level API for building Discord bots in Python
+
+Discord.py rewrite - updated version of discord.py, ensuring compatibility with the latest changes in the Discord API
+
+Comes with comprehensive documentation (examples, tutorials, API references)
+
+tinyurl.com/DiscordBotPartOneSlides
+
+1.1 Importing Libraries
+Importing the main "discord" module (core library for interacting with the Discord)
+
+1.2 Setting Bot Token
+bot.run(BOT_TOKEN)
+
+2.1 Basic Event Handling
+@bot.event
+Decorator to define an event handler for the Dscord bot
+Indicates that the function will be executed when the corresponding event
+
+On Ready
+Triggereed when the bot successfully connects to the Discord server
+Ready to start receiving and respondiong to events and commands
+Prints the message to the  
+
+Receiving Member-Related Events
+
+Setting Channel
+Assign the variable BOT_CHANNEL to the channel ID of the channel you desire the bot to respond to with refards to member-related events
+
+Messgae Settingauthor, content --> attributes of message object
+await bot.process
+
+Prevent the event on_message_edit to be triggered twice for each message on_message_editChecks if the dit was made by the bot itself by the user
+
+Reaction Added
+Same syntax as the previous few events that the arguments are reactios & user.
+Making sure that it is not the bot adding the reaction.
+
+Reaction Removed
+
+
+Basic Embedding

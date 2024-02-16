@@ -1,0 +1,54 @@
+OOP with Python
+Hi to whoever that would be reading this, I formally welcome you to my short course on OOP with Python.
+
+What is OOP?
+A paradigm that bases programming in modular 
+Class, in a class has certain attributes, has certain behaviours (methods)
+
+Classes, Attributes and Objects
+Clases are blueprints for creating Objects
+Classes create a structure for attributes and define methods for Objects
+
+Attributes are characteristics that an object holds; variable to store data within an object
+E.g. #Class(Attribute1, Attribute2, Attribute3)
+
+Instances of classes: think of them as things created from a blueprint (classes)
+Have their defined own value of attributes
+
+Classes main.py
+Constructor
+A special function or method to initialise a class
+Declares and assigns the initial values for attributes
+Usually applicable to other programming tools
+
+Methods: Functions that objects can perfrorm
+Usually used to perform operations on attributes
+Returns a modified value
+
+Use the object to call the method
+objectName.methodInObject(args)
+Object name, method name, parethesis
+
+Accessing object attributes
+Use the object to access the attribute
+modify the attribute accordingly
+
+p1.name = "Tom"
+
+Encapsulation
+Involves bundling data and methods together in asingle unit
+Implemented through classes where data members and methods are group (Clear boundary)
+Codes in one section does not affect other sections of the Codes
+
+Protection Levels
+Public vs Private
+Attribute or methods can be accessed outside of the class
+can be called via objects of the class
+Denoted by defayult, without 2 underscores
+
+init() initialise
+class blueprint for object
+Encapsulation
+
+Nested list
+[][]
