@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/python-poly.iml" filepath="$PROJECT_DIR$/.idea/python-poly.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Python-Poly.iml" filepath="$PROJECT_DIR$/.idea/Python-Poly.iml" />
     </modules>
   </component>
 </project>
